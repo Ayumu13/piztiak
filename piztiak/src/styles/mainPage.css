@@ -1,0 +1,72 @@
+  .goldheader {
+    color: gold;
+    padding: 18px;
+    text-align: center;
+    background-color: rgba(127, 127, 127, 1);
+  }
+
+  .content-div {
+    background: linear-gradient(0deg, rgba(12,96,115,1) 0%, rgba(106,193,212,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-inner-div {
+    margin: 30px;
+    max-width: 60%;
+    border: solid 3px black;
+  }
+  
+  .image-div {
+    border: solid 2px black;
+    margin-right: 20px;
+  }
+  
+  .upper-container-div {
+    background-color: rgb(64, 64, 64);
+    padding: 18px;
+  }
+
+  .upper-half-container {
+    display: flex;
+    margin-bottom: 1vh;
+  }
+
+  .lang-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .lang-link:hover {
+    transition: 0.2s ease-in-out;
+    color: aqua;
+  }
+  
+  .infobox {
+    padding: 8px;
+    border: solid 2px black;
+    font-size: 20px;
+    background-color: rgb(92, 92, 92);
+    margin-bottom: 10px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

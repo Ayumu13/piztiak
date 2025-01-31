@@ -1,0 +1,81 @@
+.language-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container1 {
+    border: solid 4px black; 
+    background-color: #555555;
+    padding: 10px;
+    width: 40%;
+}
+
+.text-container1-ltr {
+    margin-top: 25px;
+}
+
+.text-container1-rtl {
+    margin-top: 25px;
+    direction: rtl;
+}
+
+.text {
+    color: white;
+}
+
+.container-id {
+    font-family: 'Consolas';
+    font-size: 14px;
+    color: #111111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-id {
+    color: #111111;
+}
+
+.text-date {
+    color: #111111;
+    display: flex;
+    align-self: flex-end;
+}
+
+.text-header {
+    font-weight: bolder;
+    font-family: 'Bahnschrift';
+    text-align: center;
+}
+
+.text-subheader {
+    font-family: 'Bahnschrift';
+    font-size: 22px;
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.text-lines {
+    font-size: 20px;
+    display: inline;
+}
+
+.rtl-text-lines {
+    font-size: 20px;
+    display: inline;
+    direction: rtl;
+}
+
+.credits {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-align: center;
+}

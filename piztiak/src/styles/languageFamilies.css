@@ -1,0 +1,205 @@
+.content-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-div {
+  display: flex;
+  justify-content: center;
+}
+
+.language-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Afro-Asiatic {
+  fill: #E0AD47;
+  transition: 0.6s;
+}
+
+.Ainu {
+  fill: #A88050;
+  transition: 0.6s;
+}
+
+.Araucanian {
+  fill: #880015;
+  transition: 0.6s;
+}
+
+.Austro-Asiatic {
+  fill: #FF831F;
+  transition: 0.6s;
+}
+
+.Austronesian {
+  fill: #2CCBDA;
+  transition: 0.6s;
+}
+
+.Basque {
+  fill: #727272;
+  transition: 0.6s;
+}
+
+.Burushaskie {
+  fill: #727272;
+  transition: 0.6s;
+}
+
+.Dravidian {
+  fill: #15B56F;
+  transition: 0.6s;
+}
+  
+.Eskaleut {
+  fill: #E5FFFF;
+  transition: 0.6s;
+}
+
+.Indo-European {
+  fill: #C8254F;
+  transition: 0.6s;
+}
+
+.Japonic {
+  fill: #FFFF00;
+  transition: 0.6s;
+}
+
+.Kartvelian {
+  fill: #8B9989;
+  transition: 0.6s;
+}
+
+.Koreanic {
+  fill: #305EAD;
+  transition: 0.6s;
+}
+
+.Kra-Dai {
+  fill: #CE00A5;
+  transition: 0.6s;
+}
+
+.Mayan {
+  fill: #79B3E5;
+  transition: 0.6s;
+}
+
+.Mongolic {
+  fill: #9A7A46;
+  transition: 0.6s;
+}
+
+.Niger-Congo {
+  fill: #00C000;
+  transition: 0.6s;
+}
+
+.Nilo-Saharan {
+  fill: #FF8CBC;
+  transition: 0.6s;
+}
+
+.Northeast-Caucasian {
+  fill: #66C1FF;
+  transition: 0.6s;
+}
+
+.Northwest-Caucasian {
+  fill: #298929;
+  transition: 0.6s;
+}
+
+.Oto-Manguean {
+  fill: #E569D4;
+  transition: 0.6s;
+}
+
+.Quechuan {
+  fill: #6C4816;
+  transition: 0.6s;
+}
+
+.Sino-Tibetan {
+  fill: #4CFF00;
+  transition: 0.6s;
+}
+
+.Totonacan {
+  fill: #004A7F;
+  transition: 0.6s;
+}
+
+.Tupian {
+  fill: #8242C4;
+  transition: 0.6s;
+}
+
+.Turkic {
+  fill: #EE8644;
+  transition: 0.6s;
+}
+
+.Uralic {
+  fill: #d1b457;
+  transition: 0.6s;
+}
+
+.Uto-Aztecan {
+  fill: #28CCB0;
+  transition: 0.6s;
+}
+
+.Yuman-Cochimí {
+  fill: #0F2FFF;
+  transition: 0.6s;
+}
+
+.lang-fam-link {
+  position: relative;
+  fill: #0F2FFF;
+}
+
+.lang-list {
+  font-size: 20px;
+  columns: 5;
+  text-align: center;
+}
+
+.lang-list-li {
+  list-style-type: none
+}
+
+.lang-list-item {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 900;
+  color: #EEEEEE;
+}
+
+.lang-list-item-conlang {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 900;
+  color: #ffafaf;
+}
+
+.lang-list-item:hover {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 900;
+  color: #BBBBBB;
+}
+
+.lang-filter {
+  padding: 1vh 0.5vw;
+  font-size: 1.2rem;
+  width: 30vw;
+  height: 2vh;
+  margin-bottom: 3vh;
+}
