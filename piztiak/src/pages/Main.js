@@ -32,7 +32,7 @@ function Main() {
             <h3 class="goldheader">Welcome to the Piztiak Project</h3>
             <div className='upper-container-div'>
             <div className='upper-half-container'>
-                <img className='image-div' src='temporary.png' width={512} height={512} />
+                {/* <img className='image-div' src='temporary.png' width={512} height={512} /> */}
                 <div className='statoid-div'>
                   <p className='infobox'>Currently supporting <b>{languageNumber[1].id}</b> languages</p>
                   <p className='infobox'>The most recent language is <b><a className='lang-link' href={`/languages/${languageNumber[0]}`}>{languageNumber[1].name}</a></b></p>

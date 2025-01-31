@@ -29,7 +29,6 @@ function Language() {
                             <p className="text text-subheader">{lang.nativeName}</p>
                         </div>                    
                         <div className={lang.rtl ? `text-container1-rtl` : `text-container1-ltr`}>
-                            {/* I know this looks horrible, don't judge me */}
                             <Tooltip title={lang.transliteration?.line1} followCursor placement="top">
                                 <p className={lang.rtl ? `text rtl-text-lines` : `text text-lines`}>{lang.nativeTranslation ? lang.nativeTranslation.line1 : lang.dialect1.line1}</p>
                             </Tooltip>
